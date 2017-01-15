@@ -35,12 +35,12 @@ public class CheckersTable extends World
         }
         for (int j = 1; j <= 3; j++) {
             for (int i = j % 2;i < 8;i = i + 2) {
-                addObject(new Gold(),35 + (i *80),40 + 80*(j-1));
+                addObject(new Gold(),40 + (i *80),40 + 80*(j-1));
             }
         }
         for (int j = 6; j <= 8; j++) {
             for (int i = j % 2;i < 8;i = i + 2) {
-                addObject(new Black(),35 + (i *80),40 + 80*(j-1));
+                addObject(new Black(),40 + (i *80),40 + 80*(j-1));
             }
         }
     }
